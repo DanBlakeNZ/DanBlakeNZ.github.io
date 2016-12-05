@@ -5,9 +5,9 @@ body{
 }
 
 h1{
-  font-size: 30px;
+  font-size: 35px;
   text-transform: uppercase;
-  color:#1CD2FF;
+  color:gray;
 }
 
 h2{
@@ -48,9 +48,8 @@ a:hover{
 }
 
 #blog-links-container{
-  margin: 0px auto;
-  width: 500px;
-  text-align: center;
+  text-align: left;
+  padding: 150px 0px 0px 30px;
 }
 
 #left-panel{
