@@ -60,10 +60,7 @@ a:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: inline-block;
-  float: left;
-  padding: 0px;
-  margin: 0px;
+  display: inline-block;;
 }
 
 #right-panel{
@@ -73,10 +70,7 @@ a:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: inline-block;
-  float: left;
-  padding: 0px;
-  margin: 0px;
+  display: inline-block                                                                                                                                                           ;
 }
 
 
