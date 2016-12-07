@@ -1,0 +1,148 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: #ff2ab0
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  border: 1px solid red;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+.bold-text{
+  font-weight: bold;
+}
+
+.light-text{
+  font-weight: 300;
+}
+
+.my-name{
+  color: white;
+  font-size: 46px;
+  text-align: left;
+  letter-spacing: 0.1em;
+  padding-left: 50px;
+}
+
+.navigation-container{
+  margin-top: 10px;
+}
+
+.navigation-link{
+  display: inline;
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  padding: 5px 10px;
+  margin: 0px 30px;
+
+}
+
+.navigation-links-container{
+  list-style: none;
+  border: 1px solid orange;
+  line-height: 30px;
+  display: flex;
+  float: right;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.navigation-wrapper{
+  width: 100%;
+  height: 100%;
+  border: 1px solid yellow;
+}
+
+.page-container{
+  width: 99.5vw;
+  height: 98.9vh;
+  margin: 0px auto;
+}
+
+.social-link{
+  display: inline;
+  border: 1px solid white;
+  text-align: center;
+  color: #FF2AB0;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  padding: 5px 5px;
+  margin: 0px 5px;
+}
+
+
+
+
+
+#homepage-background{
+    background-image: url(../assets/images/Hero-Image-edited.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
