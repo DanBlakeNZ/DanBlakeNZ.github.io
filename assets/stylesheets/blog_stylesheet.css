@@ -104,7 +104,6 @@ a:hover{
     margin: 0px auto;
 }
 
-
 .blog-link{
   line-height: 27px;
 }
@@ -113,4 +112,10 @@ a:hover{
   width: 100%;
   max-width: 1500px;
   margin: 0px auto;
+}
+
+.date{
+      font-family: 'Playfair Display', serif;
+      color: black;
+      margin: 15px 0px 3px 0px;
 }
