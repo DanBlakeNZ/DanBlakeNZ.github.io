@@ -1,0 +1,18 @@
+.hamburger-container{
+  font-size: 4em;
+  line-height: 2em;
+  border: 1px solid green;
+  text-align: center;
+}
+
+.heading-container{
+  font-size: 5em;
+  text-align: center;
+  margin-left: 0% !important;
+  border: 1px solid blue;
+}
+
+.page-header-container{
+  border: 1px solid red;
+  height: 8em;
+}
