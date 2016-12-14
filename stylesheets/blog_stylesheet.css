@@ -1,0 +1,103 @@
+/* GENERAL STYLING */
+
+p{
+  padding: 0px !important;
+  margin: 0px !important;
+
+}
+
+
+
+
+/* CLASS STYLING */
+
+.hero-button{
+  background-color: #FF2AB0!important;
+  color: white!important;
+  border: 0px!important;
+  margin: 1em;
+  width: 12em;
+  font-size: .8em!important;
+  letter-spacing: .2em!important;
+}
+
+.site-header-container{
+  display: flex;
+}
+
+.name-container{
+  color: white;
+  font-size: 2em;
+  letter-spacing: .08em;
+  text-align: center;
+}
+
+.section-container{
+  width: 100%;
+  max-width: 1200px;
+}
+
+
+/* ID stylings */
+
+#about-section-container{
+  margin: 0px auto;
+}
+
+#about-text-container{
+  text-align: center;
+  margin: 2em 0em;
+}
+
+#into-text{
+  color: white;
+  font-size: 1.1em;
+  letter-spacing: .05em;
+  text-align: center;
+  padding: 1em;
+}
+
+#me-image{
+  width: 100%;
+  height: auto;
+}
+
+#welcome-button-container{
+  margin-top: 3em;
+  text-align: center;
+}
+
+#welcome-section-container{
+    margin: 5em auto 0em auto;
+}
+
+
+#welcome-text{
+  color: #FF2AB0;
+  text-align: center;
+  font-size: 4.5em;
+  letter-spacing: .08em;
+}
+
+#welcome-hr{
+  border: 1px solid #00FF00;
+  width: 70%;
+  max-width: 280px;
+  margin-top: 0px;
+}
+
+#welcome-wrapper{
+  background-image: url(../assets/images/Hero-Image-edited.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 750px){
+
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!-- My CSS Stylesheet-->
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/blog_stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/blog_stylesheet.css">
     <!-- Normalise CSS-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <!-- Skeleton CSS-->
@@ -13,33 +13,58 @@
   </head>
 
   <body>
+    <div class="row" id="welcome-wrapper">
+      <header class="row site-header-container">
+        <div class="twelve columns name-container">
+          Dan Blake
+        </div>
+        <navigation class="desktop-navigation-container">
+          <!-- About  -->
+          <!-- Blog -->
+          <!-- Portfolio -->
+          <!-- Contact -->
+        </navigation>
+      </header>
 
-    <div class="row site-header-wrapper">
-      <div class="hamburger-button">
-        &#9776;
-      </div>
-      <div class="name-container">
-        Dan Blake
+      <div id="welcome-section-container" class="section-container">
+        <div  id="welcome-text">
+          Welcome
+          <hr id="welcome-hr">
+        </div>
+        <div id="into-text">
+          <p>Hey, I’m Dan Blake,</p>
+          <p>an aspiring web developer.</p>
+          <br>
+          <p>As an EDA student I learning how to make </p>
+          <p>beautiful, clean and modern websites.</p>
+        </div>
+        <div id="welcome-button-container">
+          <a class="button hero-button" href="#">My Blog</a>
+          <a class="button hero-button" href="#">My Work</a>
+        </div>
       </div>
     </div>
+    <!-- End of Welcome section -->
 
+    <div id="about-section-container" class="section-container">
+      <div class="row">
+        <div class="six columns" id="about-text-container">
+          <h3>Hi There!</h3>
+          <p>Thanks for thanking the time to visit my personal site! </p>
+          <br>
+          <p>Currently I am based in Wellington, New Zealand where I am developing my web development skills at Enspiral DevAcademy.</p>
+          <br>
+          <p>I love the challange, creativity and problem solving that coding and web development brings and I have the goal or building sites that not only look great but also provide a fantasic user experience on any device.</p>
+        </div>
 
-    <div id="hero-container" class="row">
-
-      <div id="welcome-container">
-        <h1>Welcome</h1>
-        <hr id="welcome-hr">
-        <p>Hey, I'm Dan Blake,</p>
-        <p>an aspiring Web Developer</p>
-        <p>currently studying at EDA.</p>
-        <br>
-        <p>Welcome to my website!</p>
-        <a class="button welcome-button" href="#">Latest blog</a>
-        <a class="button welcome-button" href="#">About me</a>
-
-      </div>
-
+        <div class="six columns">
+          <img src="assets/images/me-pink-shaddow.jpg" alt=""  id="me-image">
+        </div>
     </div>
+  </div>
+
+
+
 
   </body>
 </html>
