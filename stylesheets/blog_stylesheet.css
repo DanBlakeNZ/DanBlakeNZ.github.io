@@ -103,7 +103,8 @@ h3{
 }
 
 #welcome-section-container{
-    margin: 5em auto 0em auto;
+    margin: 0em auto;
+    padding: 5em 0em;
 }
 
 
@@ -126,7 +127,7 @@ h3{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 
