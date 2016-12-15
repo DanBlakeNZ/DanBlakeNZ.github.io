@@ -15,7 +15,11 @@ h3{
 
 a{
   text-decoration: none;
-  color: inherit!important;
+  color: inherit
+}
+
+a[href^="mailto"]{
+  color: inherit;
 }
 
 a:visited{
