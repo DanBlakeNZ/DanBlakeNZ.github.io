@@ -1,13 +1,15 @@
 /* GENERAL STYLING */
 
+/*Stops Image bounce on mobile*/
 html {
-    height  : 100%;
+    height: 100%;
     overflow: hidden;
 }
 body {
-    height  : 100%;
+    height: 100%;
     overflow: auto;
 }
+/*//////////////////////////*/
 
 
 p{
@@ -19,8 +21,6 @@ p{
 h3{
   letter-spacing: .05em!important;
 }
-
-
 
 
 /* CLASS STYLING */
@@ -35,10 +35,19 @@ h3{
   letter-spacing: .2em!important;
 }
 
+.hero-button:hover{
+  background-color: #00FF00!important;
+  color: #FF2AB0!important;
+}
+
 .fa-icon{
   color:#FF2AB0;
   font-size: 2.5em!important;
   padding: .5em;
+}
+
+.fa-icon:hover{
+  color: #00FF00;
 }
 
 .site-header-container{
@@ -102,6 +111,7 @@ h3{
 
 #me-image{
   width: 80%;
+  max-width: 20em;
   height: auto;
   display:block;
   margin:auto;
@@ -137,12 +147,55 @@ h3{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 80%;
   position: relative;
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 750px){
+@media screen and (min-width: 550px){
+  .six.columns {
+    width: 100%!important;
+    margin: 0px;
+  }
 
+  #about-text-container{
+    padding: 0em 2em 3em 2em
+  }
+}
+
+
+
+
+@media screen and (min-width: 750px){
+  .six.columns {
+    width: 48%!important;
+    padding-top: 13%;
+  }
+
+  #into-text{
+    font-size: 1.3em;
+  }
+
+  #me-image{
+    width: 80%;
+    max-width: 30em;
+  }
+
+  #welcome-wrapper{
+    height: 70%
+  }
+}
+
+@media screen and (min-width: 800px){
+  .six.columns {
+    padding-top: 5%
+  }
+}
+
+@media screen and (min-width: 986px){
+  .six.columns {
+    width: 48%!important;
+    padding-top: 0%;
+  }
 }
