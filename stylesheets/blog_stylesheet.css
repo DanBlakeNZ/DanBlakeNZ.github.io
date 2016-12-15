@@ -29,6 +29,37 @@ a:visited{
   font-weight: bold;
 }
 
+.blog-contents{
+  padding: 0em 1.5em 3em 1.5em;
+  margin-bottom: 2em;
+}
+
+.blog-date{
+  font-style: italic;
+  margin-bottom: 1.5em!important;
+}
+
+.blog-header{
+  height: 3.5em;
+  color: white;
+  background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+100;Blue+3D+%2315 */
+  background: rgb(0,183,234); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.blog-header a{
+  color: white;
+}
+
+.blog-title{
+  color: #FF2AB0;
+  text-align: center;
+  margin: 1.5em 0em 1em 0em;
+}
+
 .desktop-navigation-container{
   display: none;
 }
@@ -41,7 +72,6 @@ a:visited{
 }
 
 .desktop-navigation-container li{
-  color: white;
   padding: 0px 0.8em;
   font-size: 1.2em;
 }
@@ -75,12 +105,15 @@ a:visited{
   color: #00FF00;
 }
 
+.go-back{
+  margin: 0px auto;
+}
+
 .site-header-container{
   display: flex;
 }
 
 .name-container{
-  color: white;
   font-size: 2em;
   letter-spacing: .08em;
   text-align: center;
@@ -88,8 +121,8 @@ a:visited{
 }
 
 .section-container{
-  width: 100%;
   max-width: 1000px;
+  margin: 0px auto;
 }
 
 
@@ -107,6 +140,12 @@ a:visited{
   padding: 2em 1.5em 2em 1.5em;
 }
 
+#back-button-container{
+  margin: 0px auto;
+  display: flex;
+  margin-top: 2em;
+}
+
 #contact-container{
   text-align: center;
 }
@@ -122,6 +161,18 @@ a:visited{
 #contact-section-wrapper{
   width: 100%;
   background-color: #2D2929;
+}
+
+#homepage-header{
+  background-color: none!important;
+}
+
+#homepage-name{
+  color: white;
+}
+
+#homepage-nav{
+    color: white;
 }
 
 #into-text{
