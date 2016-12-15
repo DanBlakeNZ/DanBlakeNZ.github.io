@@ -153,11 +153,6 @@ h3{
 
 /* MEDIA QUERIES */
 
-@media (orientation: landscape) {
-  #welcome-wrapper{
-    min-height: 200vh!important;
-}
-
 @media screen and (min-width: 550px){
   .six.columns {
     width: 100%!important;
