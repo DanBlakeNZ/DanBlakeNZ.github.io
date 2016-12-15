@@ -1,5 +1,15 @@
 /* GENERAL STYLING */
 
+html {
+    height  : 100%;
+    overflow: hidden;
+}
+body {
+    height  : 100%;
+    overflow: auto;
+}
+
+
 p{
   padding: 0px !important;
   margin: 0px !important;
