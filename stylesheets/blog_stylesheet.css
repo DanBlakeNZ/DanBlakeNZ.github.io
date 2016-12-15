@@ -15,7 +15,7 @@ h3{
 
 a{
   text-decoration: none;
-  color: inherit;
+  color: inherit!important;
 }
 
 a:visited{
@@ -36,7 +36,6 @@ a:visited{
 
 .blog-date{
   font-style: italic;
-  margin-bottom: 1.5em!important;
 }
 
 .blog-header{
@@ -55,6 +54,7 @@ a:visited{
 }
 
 .blog-title{
+  font-size: 1.5em;
   color: #FF2AB0;
   text-align: center;
   margin: 1.5em 0em 1em 0em;
@@ -106,7 +106,7 @@ a:visited{
 }
 
 .go-back{
-  margin: 0px auto;
+  margin: 1em auto;
 }
 
 .site-header-container{
@@ -118,6 +118,17 @@ a:visited{
   letter-spacing: .08em;
   text-align: center;
   width: 100%;
+}
+
+.name-container a:hover{
+  color: inherit;
+}
+
+.page-title{
+  color:#FF2AB0;
+  text-align: center;
+  font-weight: bold;
+  padding: 2em 0em 1em 0em;
 }
 
 .section-container{
@@ -145,6 +156,26 @@ a:visited{
   display: flex;
   margin-top: 2em;
 }
+
+#blog-post-list{
+  font-size: 1.2em;
+}
+
+#blog-post-list li{
+  list-style: none;
+  margin-bottom: 1.5em;
+}
+
+#blog-post-list a:hover{
+  color:#FF2AB0;
+}
+
+#blog-post-list .blog-date{
+  color:#FF2AB0;
+  font-weight: bold;
+}
+
+
 
 #contact-container{
   text-align: center;
@@ -269,6 +300,10 @@ a:visited{
 }
 
 @media screen and (min-width: 800px){
+
+  .blog-title{
+    font-size: 2.5em;
+  }
 
   .desktop-navigation-container{
     display: block;
