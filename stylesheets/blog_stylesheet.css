@@ -3,7 +3,11 @@
 p{
   padding: 0px !important;
   margin: 0px !important;
+  letter-spacing: .05em!important;
+}
 
+h3{
+  letter-spacing: .05em!important;
 }
 
 
@@ -21,6 +25,12 @@ p{
   letter-spacing: .2em!important;
 }
 
+.fa-icon{
+  color:#FF2AB0;
+  font-size: 2.5em!important;
+  padding: .5em;
+}
+
 .site-header-container{
   display: flex;
 }
@@ -34,32 +44,57 @@ p{
 
 .section-container{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
 }
+
+
 
 
 /* ID stylings */
 
 #about-section-container{
-  margin: 0px auto;
+  margin: 3em auto;
 }
 
 #about-text-container{
   text-align: center;
-  margin: 2em 0em;
+  letter-spacing: .05em;
+  padding: 0em 1.5em 3em 1.5em;
+}
+
+#contact-container{
+  text-align: center;
+}
+
+#contact-section-container{
+  text-align: center;
+  color: white;
+  letter-spacing: .05em;
+  padding: 3em 0em 3em 0em;
+  margin: 0px auto;
+}
+
+#contact-section-wrapper{
+  width: 100%;
+  background-color: #2D2929;
 }
 
 #into-text{
   color: white;
-  font-size: 1.1em;
   letter-spacing: .05em;
   text-align: center;
   padding: 1em;
 }
 
+#made-by{
+  font-size: 0.8em;
+}
+
 #me-image{
-  width: 100%;
+  width: 80%;
   height: auto;
+  display:block;
+  margin:auto;
 }
 
 #welcome-button-container{
@@ -94,7 +129,6 @@ p{
   height: 100vh;
   position: relative;
 }
-
 
 /* MEDIA QUERIES */
 
