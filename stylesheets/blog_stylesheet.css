@@ -68,7 +68,7 @@ a:visited{
   display: none;
 }
 
-.desktop-navigation-container a{
+.desktop-navigation-container li{
   color: white!important;
 }
 
@@ -85,7 +85,7 @@ a:visited{
 }
 
 .desktop-navigation-container a:hover{
-  color: #FF2AB0;
+  color: #FF2AB0!important;
 }
 
 .hero-button{
