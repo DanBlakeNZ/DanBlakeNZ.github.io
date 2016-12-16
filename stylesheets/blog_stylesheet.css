@@ -68,6 +68,10 @@ a:visited{
   display: none;
 }
 
+.desktop-navigation-container a{
+  color: white!important;
+}
+
 .desktop-navigation-container ul{
   list-style: none;
   display: flex;
