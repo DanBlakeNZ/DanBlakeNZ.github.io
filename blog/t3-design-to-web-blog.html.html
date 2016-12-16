@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Web Design</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <!-- My CSS Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog_stylesheet.css">
+    <!-- Normalise CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <!-- Skeleton CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    </head>
+  <body>
+    <header class="row site-header-container blog-header">
+      <div class="name-container">
+        <a href="../index.html">Dan <span class="bold">Blake</span></a>
+      </div>
+      <div class="desktop-navigation-container">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="../pages/blog-list.html">Blog</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="https://github.com/DanBlakeNZ" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://nz.linkedin.com/in/danielblakenz" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:dblakenz@hotmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="section-container blog-contents">
+
+      <h3 class="blog-title">Responsive Web Design</h3>
+      <p class="blog-date">
+        16 December 2016
+      </p>
+
+      <h4>What a responsive site is, and why responsiveness is important?</h4>
+      <p> Responsive Design is is a technique of designing and developing a website to ensure it looks great on any screen and device. Previously designers and developers created seperate pages specificlly for mobile, tablet or desktop. This was a lot of work, as esentially 3 seperate websites had to be built and maintained, as such resonsive design provides not only an optimised user experience, but also saves developers and designers alot of time as they only have one site to develop/maintain. Responsive design now allows designers and developers make a single webpage that will display on any device. The content, styling and layout will all respond to the screen/device type ensureing the user is getting an optimal verion of the site, no matter what device they are viewing it on.
+      </p>
+      <br>
+      <h4>What frameworks are, and their pros and cons?</h4>
+      <p>
+        Frameworks are a set of predefined website objects and layout stylings that developers can use when building a site. They allow developers to quickly develop the layout of their site as well as implement any desired features the framework supports. Frameworks provide a quick an easy way to develop or even prototype a website, however if you are just learning webdesign/development then they provide a barrier to student learning as they automate tasks that students would have to otherwise do themselves. Adittionaly, because frameworks are already predefined, they can also be somewhat restricitive or overwrite any other settings/stylings.
+      </p>
+      <br>
+      <h4>What mobile first design is, and why it's important?</h4>
+      <p>
+        Mobile First Design is the concept of designing and building a website starting with the mobile site. Previously designers have started with the desktop design, and then developed down to the mobile site. There are several issues with this method. Firstly, by doing it this way the mobile device often ends up having features cut or a user interface that isn't optimised for mobile. Given the continued growth in mobile traffic and ownership you want to ensure your mobile site provides a great user experience! With mobile first design, you start by designing the mobile site and make it as good as you possabily can to ensure the best possable experience, you then use that as your base and work up in size from there, to tablet and desktop. As the screensize gets bigger you can add more features to ensure the best experience on those devices as well - you now are providing your users with a fantastic experience on all devices. One other benefit of mobile first development, is that the mobile site will be faster to load as it's not loading all the tablet/desktop styling and images etc, where as if you have a desktop first design, the mobile device is generally still loading these even if the image/feature isn't shown/being used, thus slowing the load time of the mobile site.
+      </p>
+      <br>
+      <h4>What a wireframe is and why do we use it?</h4>
+      <p>
+        Wireframing is important as it helps to give direction to the look and feel of the site, it helps designers and developers to understand how the site may look and operate before a line of code is typed or before photoshop is opened! Wireframing can be used to quickly jot down new ideas around the sites design, user experience or features as well as can help justify what is important to the end user.
+      </p>
+      <img>
+      <br>
+      <h4>The aspects of your wireframes you found difficult to implement, and why?</h4>
+      <p>
+        I found it difficult to translate some ideas from mobile to desktop - I would have this great idea of how something would look on mobile, but would then have to figure out how that would then look on desktop. The trickst component was probably the about section that contained text and an image. The skeleton framework had a media query that kicked in too early and so didn't make this section look particually great (long thin block of text), how I had to play around with the media queries to make sure that the text and image looked good at all screen sizes.
+      </p>
+      <div id="back-button-container">
+        <a class="button hero-button go-back" href="../pages/blog-list.html">Go Back</a>
+      </div>
+    </div>
+
+
+    <div id="contact-section-wrapper">
+      <div id="contact-section-container" class="section-container">
+        <div class="row">
+          <div class="twelve columns" id="contact-container">
+            <h3>Let's chat!</h3>
+            <p>Feel free to get in contact via:</p>
+            <br>
+            <a href="mailto:dblakenz@hotmail.com"><i class="fa fa-envelope fa-icon" aria-hidden="true"></i></a>
+            <a href="https://nz.linkedin.com/in/danielblakenz" target="_blank"><i class="fa fa-linkedin-square fa-icon" aria-hidden="true"></i></a>
+            <a href="https://github.com/DanBlakeNZ" target="_blank"><i class="fa fa-github fa-icon" aria-hidden="true"></i></a>
+            <br>
+            <span id="made-by">Made by Dan Blake</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <!-- FontAwesome CDN -->
+  <script src="https://use.fontawesome.com/08c4c69269.js"></script>
+</html>
