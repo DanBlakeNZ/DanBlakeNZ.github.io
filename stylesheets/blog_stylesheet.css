@@ -161,6 +161,11 @@ a:visited{
   margin-top: 2em;
 }
 
+#blog-hero-image{
+  width: 100%;
+  max-width: 1000px;
+}
+
 #blog-post-list{
   font-size: 1.2em;
 }
