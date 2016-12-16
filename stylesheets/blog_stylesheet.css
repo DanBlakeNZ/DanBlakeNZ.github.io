@@ -15,7 +15,7 @@ h3{
 
 a{
   text-decoration: none;
-  color: inherit;
+  color: inherit!important;
 }
 
 a[href^="mailto"]{
@@ -53,10 +53,6 @@ a:visited{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-.blog-header a{
-  color: white;
-}
-
 .blog-title{
   font-size: 1.5em;
   color: #FF2AB0;
@@ -66,10 +62,6 @@ a:visited{
 
 .desktop-navigation-container{
   display: none;
-}
-
-.desktop-navigation-container li{
-  color: white!important;
 }
 
 .desktop-navigation-container ul{
@@ -142,6 +134,10 @@ a:visited{
 .section-container{
   max-width: 1000px;
   margin: 0px auto;
+}
+
+.wireframe-image{
+
 }
 
 
@@ -265,6 +261,10 @@ a:visited{
   background-size: cover;
   height: 35em;
   position: relative;
+}
+
+#wireframe-container{
+  text-align: center;
 }
 
 /* MEDIA QUERIES */
