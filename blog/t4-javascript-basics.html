@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Technical Blog - JavaScript Basics</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <!-- My CSS Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog_stylesheet.css">
+    <!-- Normalise CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <!-- Skeleton CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    </head>
+  <body>
+    <header class="row site-header-container blog-header">
+      <div class="name-container">
+        <a href="../index.html">Dan <span class="bold">Blake</span></a>
+      </div>
+      <nav class="desktop-navigation-container">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="../pages/blog-list.html">Blog</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="https://github.com/DanBlakeNZ" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://nz.linkedin.com/in/danielblakenz" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:dblakenz@hotmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="section-container blog-contents">
+
+      <h3 class="blog-title">JavaScript Basics</h3>
+      <p class="blog-date">
+        12 Jaunary 2017
+      </p>
+      <br>
+      <h4>How does JavaScript compare to HTML and CSS?</h4>
+      <p>
+        While HTML and CSS define the layout and look of a webpage, JavaScript provides the functionality of a page by providing the logic and intelligence for any animated components of the site as well as any components that a user can interact with. JavaScript can be used to retrieve, submit process and manipulate data and information, as well as solve complex calculations, perform repetitive tasks, make decisions and provide the user with feedback when necessary.
+      </p>
+      <br>
+      <h4>Explain control flow and loops using an example process from everyday life</h4>
+      <p>
+        Flow Control is reference to the organization (or flow) of the JavaScript script/code. As JavaScript works through the script it will run each code segment when required, and only when certain conditions were met. Flow control provides the ability to make a decision on which code segment to run – think of it as like a set of instructions; if there was no flow control or instructions the script wouldn’t know which code segment to run, when to run or if it should be run at all. Similarly loops are also a key part of JavaScript’s decision making process. Loops will perform a particular function over and over until a particular condition is met, once that condition is met the loop will stop and proceed to the next event in the script (if there is one).
+        <br>
+        <br>
+        We all use flow control and loops in our day to day life to make decisions on how proceed and what to do next.<br> 
+        A simple example is making a bowl of cereal for breakfast:<br>
+        •	Do I have a bowl?<br>
+          &nbsp &nbsp o	If no, get a bowl from the cupboard.<br>
+          &nbsp &nbsp o	Check again - if yes, check for milk.<br>
+          <br>
+        •	Do I have any milk?<br>
+          &nbsp &nbsp o	If no, get milk from fridge.<br>
+          &nbsp &nbsp o	If yes, then you can then choose which cereal you would like.<br>
+          <br>
+        •	What cereal would you like?<br>
+          &nbsp &nbsp o	Wheat Bix, Muesli, Coco Pops – choose one.<br>
+          &nbsp &nbsp o	Get selected cereal from cupboard.<br>
+          <br>
+        •	Pour selected cereal in bowl until desired amount:<br>
+          &nbsp &nbsp o	Check - do you have the desired amount of cereal?<br>
+          &nbsp &nbsp &nbsp 	If not, keep pouring cereal into bowl.<br>
+          &nbsp &nbsp &nbsp 	Repeat check (loop) until desired amount of cereal is in the bowl.<br>
+          &nbsp &nbsp o	Once you have the desired amount of cereal, add milk.<br>
+          <br>
+        •	Pour milk in bowl until you have the desired amount.<br>
+          &nbsp &nbsp o	Check - do you have the desired amount of milk?<br>
+          &nbsp &nbsp &nbsp 	If not, keep pouring milk.<br>
+          &nbsp &nbsp &nbsp 	Repeat check (loop) until desired amount of milk is in the bowl.<br>
+          <br>
+        •	Once you have the desired amount of cereal. You are now ready to eat breakfast. Eat breakfast.<br>
+        <br>
+        As you can see from the example above, there is a flow and order to the way we make decisions and act – there is no point pouring milk into a bowl if we haven’t even gotten a bowl from the cupboard!
+      </p>
+      <br>
+      <h4>Explain the difference between accessing data from arrays and objects.</h4>
+      <p>
+        An Array can be thought of as a table that contains various types of data – similar to that found in in Excel spreadsheet where you have columns and rows that each contain a different piece of information/data; some text, a number, a formula or a link to another document. Arrays are similar in that they can also hold strings, numbers, functions, objects and even other arrays! To access a spreadsheets data you would reference the cell that contains that data (eg cell D5). In its simplest form arrays are similar in that you reference the array ‘cell’ that contains the data you want to access. This is done by using bracket notation, you simply refer to the name of the array and then the ‘cell’ number – however keep in mind that the first set of data stored in the array will be at position 0. For example: exampleArray[3]. This will access the forth object store in the array.
+        Objects are similar in that they also store a range of data types, these are usually broken down into properties (variables) and methods (functions). Accessing an object’s data is done by referencing the object, and then the property or method you wish to interact with. This is done by using dot notation, for example you have an Object called Person with a variable called Name (that will have a name associated with it). To access the Name property, you would access it in the following way: person.name. Bracket Notation can also be used to access a property of an object under certain conditions, for example if there is a space in the property name eg person[“first name”].
+      </p>
+      <br>
+      <h4>Explain what functions are and why they are useful.</h2>
+      <p>
+        Functions are a set of code that can be reused over and over again to perform the same action when required or to weigh up options and make a decision. For example maybe you want to calculate the sum of two numbers a user inputs. Each time the user requests the sum of the two numbers a function will run that will get the two numbers inputted by the user, calculate the sum, and then display the result. This function can be reused over and over again.
+        We use functions in our everyday life as well, for example drinking a cup of water. Each time we want to take a drink, we reach out to the cup, bring it to out mouth, drink the water, and then put the cup back down. We will do this same process over and over again, but will only call on this ‘function’ when needed (ie when we want to drink some water)
+        Functions are useful as they cut down on repetition of code as they allow the user to write one set of code that can be accessed at any time to perform an action or make a decision. A function can be called and used by other functions as well as individually.
+      </p>
+      <div id="back-button-container">
+        <a class="button hero-button go-back" href="../pages/blog-list.html">Go Back</a>
+      </div>
+    </div>
+
+
+    <div id="contact-section-wrapper">
+      <div id="contact-section-container" class="section-container">
+        <div class="row">
+          <div class="twelve columns" id="contact-container">
+            <h3>Let's chat!</h3>
+            <p>Feel free to get in contact via:</p>
+            <br>
+            <a href="mailto:dblakenz@hotmail.com"><i class="fa fa-envelope fa-icon" aria-hidden="true"></i></a>
+            <a href="https://nz.linkedin.com/in/danielblakenz" target="_blank"><i class="fa fa-linkedin-square fa-icon" aria-hidden="true"></i></a>
+            <a href="https://github.com/DanBlakeNZ" target="_blank"><i class="fa fa-github fa-icon" aria-hidden="true"></i></a>
+            <br>
+            <span id="made-by">Made by Dan Blake</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <!-- FontAwesome CDN -->
+  <script src="https://use.fontawesome.com/08c4c69269.js"></script>
+</html>
