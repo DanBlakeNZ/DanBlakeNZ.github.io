@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Language</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <!-- My CSS Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog_stylesheet.css">
+    <!-- Normalise CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <!-- Skeleton CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    </head>
+  <body>
+    <header class="row site-header-container blog-header">
+      <div class="name-container">
+        <a href="../index.html">Dan <span class="bold">Blake</span></a>
+      </div>
+      <div class="desktop-navigation-container">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="../pages/blog-list.html">Blog</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="https://github.com/DanBlakeNZ" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://nz.linkedin.com/in/danielblakenz" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:dblakenz@hotmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="section-container blog-contents">
+
+      <h3 class="blog-title">Javascript Language</h3>
+      <p class="blog-date">
+        10 January 2016
+      </p>
+
+      <h4>What 'scope' is, and how it works in JavaScript</h4>
+      <p>
+        There is two types of scope, Local Scope and Global Scope. Say you have a variable which has Global Scope, this means that that variable can be accessed, and modified by a variety different functions and once the function has modified it in some way then the Global variable is still available, and can be modified and/or accessed by other functions within you JavaScript code.
+
+        By contrast Local Scope refers to something that can only be accessed temporarily, usually by one specific function. For example a variable with a Local Scope can usually be found within a specific function. When that function is running, that variable might be used to store a temporary value that the function needs, however once the function has finished performing its task it stops and the local scope variable and its value is 'deleted' and is no longer there or accessible. However if that same function runs again, then that local variable will once again be created and will be able to store any temporary values when said function is running. 
+      </p>
+      <div id="back-button-container">
+        <a class="button hero-button go-back" href="../pages/blog-list.html">Go Back</a>
+      </div>
+    </div>
+
+
+    <div id="contact-section-wrapper">
+      <div id="contact-section-container" class="section-container">
+        <div class="row">
+          <div class="twelve columns" id="contact-container">
+            <h3>Let's chat!</h3>
+            <p>Feel free to get in contact via:</p>
+            <br>
+            <a href="mailto:dblakenz@hotmail.com"><i class="fa fa-envelope fa-icon" aria-hidden="true"></i></a>
+            <a href="https://nz.linkedin.com/in/danielblakenz" target="_blank"><i class="fa fa-linkedin-square fa-icon" aria-hidden="true"></i></a>
+            <a href="https://github.com/DanBlakeNZ" target="_blank"><i class="fa fa-github fa-icon" aria-hidden="true"></i></a>
+            <br>
+            <span id="made-by">Made by Dan Blake</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <!-- FontAwesome CDN -->
+  <script src="https://use.fontawesome.com/08c4c69269.js"></script>
+</html>
